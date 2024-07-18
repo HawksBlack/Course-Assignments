@@ -4,11 +4,12 @@
 h1 {
 	text-align: center;
 	color: black;
+	margin 30px;
 }
 p {
 	color: black;
   clear: right;
-  padding: 10px;
+  padding:10px;
 }
 h2 {
   float: right;
@@ -20,8 +21,9 @@ h2 {
 .food {
   border: 1px solid black;
   background: lightgrey;
-  flex: 1;
-  margin: 1%;
+}
+.border {
+  border: 5px solid white;
 }
 .fried {
   background-color: yellow;
@@ -47,7 +49,7 @@ h2 {
 		width: 25%;
 	}
 	.col-lg-4 {
-		width: 33%;
+		width: 33.33%;
 	}
 	.col-lg-5 {
 		width: 41.66%;
@@ -118,7 +120,6 @@ h2 {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col--12 {
     float: left;
-    margin: 5px;
   }
 	.col-sm-1 {
 		width: 8.33%;
