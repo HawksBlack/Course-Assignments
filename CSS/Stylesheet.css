@@ -33,7 +33,7 @@ h2 {
 }
 
 .barrier {
-	margin: 5px;
+	margin: -5px;
 }
 
 @media (min-width: 992px) {
