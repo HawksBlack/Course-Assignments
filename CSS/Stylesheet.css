@@ -22,6 +22,7 @@ h2 {
   border: 1px solid black;
   background: lightgrey;
   flex-wrap: wrap;
+  Margin: 5px;
 }
 .fried {
   background-color: yellow;
