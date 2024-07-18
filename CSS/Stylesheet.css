@@ -21,7 +21,7 @@ h2 {
   border: 1px solid black;
   background: lightgrey;
   flex: 1;
-  margin: 5px;
+  margin: 1%;
 }
 .fried {
   background-color: yellow;
@@ -47,7 +47,7 @@ h2 {
 		width: 25%;
 	}
 	.col-lg-4 {
-		width: 33.33%;
+		width: 33%;
 	}
 	.col-lg-5 {
 		width: 41.66%;
