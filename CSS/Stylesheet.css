@@ -1,41 +1,41 @@
 * {
 	box-sizing: border-box;
 }
-h1 {
+h1 { /*menu name */
 	text-align: center;
 	color: black;
 	margin 30px;
 }
-p {
+p { /*random text */
 	color: black;
   clear: right;
   padding:10px;
 }
-h2 {
+h2 { /*names of food */
   float: right;
   border: 2px solid black;
   margin-top: 0;
   margin-bottom:20px;
   padding: 5px 5px 5px 10px;
 }
-.food {
+.food { /*box that contains the content */
   border: 1px solid black;
   background: lightgrey;
 }
-.border {
+.border { /*this sets the "margins". attempting to set the margins and padding kept causing the code to freak out so this was my solution */
   border: 5px solid white;
 }
-.fried {
+.fried { /*background */
   background-color: yellow;
 }
-.ham {
+.ham {/*background */
   background-color: orange;
 }
-.pizza {
+.pizza {/*background */
   background-color: red;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { /*desktop width */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -76,7 +76,7 @@ h2 {
 		width: 100%;
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) { /*tablet width */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -117,7 +117,7 @@ h2 {
 		width: 100%;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 767px) { /*phone width */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col--12 {
     float: left;
   }
