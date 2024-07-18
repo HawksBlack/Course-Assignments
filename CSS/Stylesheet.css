@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 h1 {
 	text-align: center;
 	color: black;
@@ -23,6 +19,7 @@ h2 {
   background: lightgrey;
   flex-wrap: wrap;
   Margin: 5px;
+  box-sizing: border-box;
 }
 .fried {
   background-color: yellow;
