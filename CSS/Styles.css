@@ -2,10 +2,13 @@
 	font-family: "Goudy Bookletter 1911", serif;
 }
 
-h1 {
-	background-color: lightgray;
+#head-nav {
+	background-color: lightblue;
+	border-radius: 0;
+	Border: 0;
 }
 
 .background {
-	background-color: lightgray;
+	background-color: lightblue;
 }
+
