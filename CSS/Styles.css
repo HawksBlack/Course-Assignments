@@ -2,13 +2,39 @@
 	font-family: "Goudy Bookletter 1911", serif;
 }
 
+body {
+background-color: #00ffff;
+}
+
 #head-nav {
-	background-color: lightblue;
+	background-color: #99ffcc;
 	border-radius: 0;
 	Border: 0;
 }
 
-.background {
-	background-color: lightblue;
+.navbar-brand h1 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: bolder;
 }
 
+.background {
+	background-color: #99ffcc;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#margins {
+padding: 10px;
+}
+
+#biggums {
+font-size: 20px;
+font-weight: bold;
+}
+
+#fixer{
+padding: 10px;
+}
